@@ -167,7 +167,6 @@ async function bookDetails(data) {
 function invokeFunction() {
   fetchingAPI();
   searchFilter();
-  bookSort();
 }
 
 invokeFunction();

@@ -30,3 +30,5 @@
 - Publication Date
 - Thumbnail Image
 
+
+
