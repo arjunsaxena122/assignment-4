@@ -31,4 +31,26 @@
 - Thumbnail Image
 
 
+## Screenshot
+
+### Front Look
+
+<p align="center">
+  <img src="./images/front_look.png" alt="front look" width="700"/>
+  <br>
+</p>
+
+### Search Filter
+
+<p align="center">
+  <img src="./images/search_filter.png" alt="search filter" width="700"/>
+  <br>
+</p>
+
+### Info Link
+
+<p align="center">
+  <img src="./images/info_link.png" alt="info link" width="700"/>
+  <br>
+</p>
 
