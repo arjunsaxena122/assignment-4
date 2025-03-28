@@ -1,0 +1,45 @@
+  <!DOCTYPE html>
+  <html lang="en">
+    <head>
+      <meta charset="UTF-8" />
+      <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+      <title>Book Explorer</title>
+      <link rel="stylesheet" href="style.css" />
+    </head>
+    <body>
+      <div class="container">
+        <h1 class="heading">Book Explorer</h1>
+        <div class="controls">
+          <div class="search-container">
+            <input
+              type="text"
+              id="search-filter"
+              placeholder="Search by title or author..."
+            />
+          </div>
+          <div class="view-buttons">
+            <button id="list-btn" class="active-view">List</button>
+            <button id="grid-btn">Grid</button>
+          </div>
+          <div class="sort-container">
+            <select name="sort" id="sort">
+              <option value="">Sort Books</option>
+              <option value="asc">Title (A-Z)</option>
+              <option value="date">Publication Date</option>
+            </select>
+          </div>
+        </div>
+        <div id="para" class="list-container">
+          <div class="loading">Loading your book collection...</div>
+        </div>
+
+        <div class="pagination" id="page-changer">
+          <button>prev</button>
+          <ul></ul>
+          <button>next</button>
+        </div>
+      </div>
+
+      <script src="./script.js"></script>
+    </body>
+  </html>
